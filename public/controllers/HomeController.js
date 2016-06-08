@@ -4,13 +4,10 @@
   angular.module('soundCloudDownloaderApp')
 
     // Let's add a controller
-    .controller('MainController', MainController);
+    .controller('HomeController', HomeController);
 
-    function MainController($scope) {
+    function HomeController($scope) {
       $scope.message = "Hello! Let's get started";
     }
 
 }());
-
-  
-

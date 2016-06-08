@@ -1,0 +1,23 @@
+{
+  "name": "soundcloud-downloader",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stemmlerjs/Angular-Demo-SoundCloud-Downloader.git"
+  },
+  "author": "Khalil Stemmler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stemmlerjs/Angular-Demo-SoundCloud-Downloader/issues"
+  },
+  "homepage": "https://github.com/stemmlerjs/Angular-Demo-SoundCloud-Downloader#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

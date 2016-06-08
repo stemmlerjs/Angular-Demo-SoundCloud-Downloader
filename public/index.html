@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="soundCloudDownloaderApp">
+
+<head>
+    <title>My Angular App</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel='stylesheet'></link>
+
+    <base href="/">
+
+    <style>
+    html,
+    body {
+        background-color: #338FFF;
+        color: white;
+    }
+    
+    .jumbotron {
+        margin-top: 40px;
+        background-color: #338FFF;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" ng-controller="MainController">
+      <ng-view></ng-view>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="app.router.js"></script>
+    <script src="controllers/MainController.js"></script>
+    <script src="controllers/HomeController.js"></script>
+</body>
+
+</html>
