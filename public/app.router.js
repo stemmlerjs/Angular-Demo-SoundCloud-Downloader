@@ -11,6 +11,8 @@
 
         .when('/search', { templateUrl: 'views/search.html', controller: 'SearchController'})
 
+        .when('/search/:query', { templateUrl: 'views/searchResults.html', controller: 'SearchResultsController'})
+
         .otherwise({ redirectTo: '/' });
 
         $locationProvider.html5Mode(true);
