@@ -21,18 +21,13 @@
     function SearchResultsController($scope, $routeParams, soundCloud) {
       $scope.query = $routeParams.query;
       $scope.tracks = [];
+      $scope.clientID = "?client_id=" + soundCloud.clientID;
 
       // Initial Search
       soundCloud.search($scope.query)
         .then(function(results) {
           $scope.tracks = results.data;
           console.log($scope.tracks);
-          
-          // // Group into threes
-          // while(results.data.length !== 0) {
-          //   $scope.tracks.push(results.data.splice(0, 3));
-          // }
-
         });
 
     }

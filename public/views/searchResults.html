@@ -23,7 +23,11 @@
               <td><img ng-src="{{track.artwork_url}}"></td>
               <td>
                 {{track.title}}</br>
-                  <button type="button" class="btn btn-default">Download</button>
+                
+                  <button type="button" class="btn btn-default">
+                    <a href="{{ track.stream_url + clientID }}" style="color:black" download>Download</a>
+                  </button>
+                
               </td>
               <td ng-if="track.title !== null">{{track.genre}}</td>
               <td ng-if="track.title === null">N/A</td>

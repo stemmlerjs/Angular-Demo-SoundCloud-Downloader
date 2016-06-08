@@ -1,5 +1,5 @@
 # Angular-Demo-SoundCloud-Downloader
-#### Branch 03Search
+#### Branch 04Download
 
-Build our search page and connect to the Soundcloud API
+I was going to do a directive for this but shit started actin up so I said screw it.
 
